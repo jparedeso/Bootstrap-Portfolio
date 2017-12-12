@@ -72,3 +72,70 @@ h3 {
 .socialLinks:hover {
 	opacity: 0.5;
 }
+
+.portButton {
+
+	text-align: center;
+	background-color: #4aaaa5;
+	width:100%;
+	height: 28px;
+	margin-top: 100px;
+	padding-top: 12px;
+}
+
+#lnkOne {
+	background-image: url(../images/prework.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#lnkTwo {
+	background-image: url(../images/portRPG.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#lnkThree {
+	background-image: url(../images/porttrivia.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#lnkFour {
+	background-image: url(../images/portrutgers.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#lnkFive {
+	background-image: url(../images/portrps.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#lnkSix {
+	background-image: url(../images/porthangman.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.portButton a:visited {
+	text-decoration: none;
+    color: #fff;
+}
+
+.portButton a:hover {
+	color: #2f4f4f;
+	text-decoration: none;
+}
+/*.portLnk {
+	height: 150px;
+	width: 25%;
+	margin: 25px;
+	
+}*/
