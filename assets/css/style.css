@@ -32,6 +32,24 @@ footer p {
 	color: #d5cdcd;
 }
 
+.myHeader a,
+.myHeader a:hover,
+.myHeader a:visited,
+.myHeader a:active {
+	background-color: #4aaaa5 !important;
+	color: #fff;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.myRight {
+	margin-right: 70px;
+}
+
+.myImage {
+	margin: 0 10px 10px 0;
+}
+
 h2 {
 	font-weight: bold;
 	font-family: 'Georgia', Times, Times New Roman, serif;
