@@ -124,6 +124,8 @@ h3 {
 	background-repeat: no-repeat;
 	background-position: center center;
 }
+.portButton a,
+.portButton a:active,
 .portButton a:visited {
 	text-decoration: none;
     color: #fff;
