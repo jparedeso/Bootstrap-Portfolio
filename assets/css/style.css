@@ -37,9 +37,12 @@ footer p {
 .myHeader a:visited,
 .myHeader a:active {
 	background-color: #4aaaa5 !important;
-	color: #fff;
+	color: #fff !important;
 	font-size: 28px;
 	font-weight: bold;
+}
+.myHeader a:hover {
+	opacity: .8;
 }
 
 .myRight {
