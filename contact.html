@@ -13,7 +13,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
 </head>
 
-<body>
+<body class="myBody">
 
 	<nav class="navbar navbar-default navbar-fixed-top myNav">
 		<div class="container">
@@ -85,5 +85,33 @@
 			</div>
 		</div>
 	</footer>
+	
+	<script>
+		function myMediaQueries() {
+			var mq = [
+			    window.matchMedia("(min-width: 980px)"),
+			    window.matchMedia("(min-width: 768px)"),
+			    window.matchMedia("(max-width: 767px)")
+			];
+
+			for (var i=0; i < mq.length; i++) {
+			    mediaquery(mq[i]);
+			    mq[i].addListener(mediaquery);
+			}
+			
+			function mediaquery() {
+				if (mq[0].matches) {
+					document.querySelector(".myNav").classList.add("navbar-fixed-top");
+					document.querySelector("body").classList.add("myBody");
+				} else {
+					document.querySelector(".myNav").classList.remove("navbar-fixed-top");
+					document.querySelector("body").classList.remove("myBody");
+				}
+			}
+		}
+
+		myMediaQueries();
+	</script>
+
 </body>
 </html>
